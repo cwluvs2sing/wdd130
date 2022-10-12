@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Permanent+Marker&display=swap');
+
 :root {
   --primary-color: #123b61;
   --secondary-color: #5f99be;
@@ -16,16 +19,29 @@ header {
 
 body {
   background-color: white;
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 .logo {
   width: 80px;
 }
 
+#logo-link {
+  padding-top: 5px;
+}
+
 nav a {
   text-align: center;
   color: white;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
@@ -43,6 +59,9 @@ nav a:hover {
 
 .home-title {
   color: #e89024;
+  font-family: "Permanent Marker", 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -50,18 +69,23 @@ h4 {
 }
 
 .book, .join {
-  background-color: white;
-  color: #e89024;
+  background-color: #e89024;
+  color: white;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-  background-color: #e89024;
+  background-color: #5f99be;
   color: white;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .button-box {
@@ -72,26 +96,46 @@ main section {
   text-align: center;
 }
 
+main section img {
+  box-sizing: border-box;
+}
+
 #background {
   height: 725px;
   background-color: #e89024;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #86af5f;
+}
+
 .msg {
   background-color: #123b61;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: white;
+  font-family: "Permanent Marker", 'Arial Narrow Bold', sans-serif;
+
 }
 
 .msg p {
   color: white;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: #5f99be;
   color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer p {
@@ -109,4 +153,8 @@ footer a {
 
 footer a:hover {
   color: #123b61;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
