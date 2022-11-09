@@ -302,9 +302,8 @@ footer .social img {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(14, 100px);
   padding: 50px;
-  grid-gap: 20;
   background-color: #86af5f;
-  justify-items: stretch;
+  justify-items: left;
 }
 
 .faq-1 {
@@ -312,40 +311,53 @@ footer .social img {
   padding: 30px;
   text-align: left;
   grid-row: 1/7;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e89024;
 }
 
 .faq-2 {
   background-color: white;
   padding: 30px;
   text-align: left;
-  grid-row: 7/13;
+  grid-row: 7/15;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e89024;
 }
 
 .faq-3 {
   background-color: white;
   padding: 30px;
   text-align: left;
-  grid-row: 13/18;
+  grid-row: 15/20;
 }
 
 .faq-4 {
   background-color: white;
   padding: 30px;
   text-align: left;
-  grid-row: 1/9;
+  grid-row: 1/6;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e89024;
 }
 
  .faq-5 {
   background-color: white;
   padding: 30px;
   text-align: left;
-  grid-row: 9/16;
+  grid-row: 6/11;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e89024;
 }
  
  .faq-6 {
   background-color: white;
   padding: 30px;
   text-align: left;
+  grid-row: 11/20;
 }
 
 #faq-grid h2 {
