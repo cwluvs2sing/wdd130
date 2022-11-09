@@ -331,6 +331,9 @@ footer .social img {
   padding: 30px;
   text-align: left;
   grid-row: 15/20;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e89024;
 }
 
 .faq-4 {
@@ -358,6 +361,9 @@ footer .social img {
   padding: 30px;
   text-align: left;
   grid-row: 11/20;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #e89024;
 }
 
 #faq-grid h2 {
@@ -375,7 +381,7 @@ footer .social img {
 
 
 @media screen and (max-width: 900px) {
-  #hero, .home-grid {
+  #hero, .home-grid, #faq-hero, #faq-msg-grid, #faq-grid {
       display: block;
       height: auto;
   }
@@ -386,22 +392,27 @@ footer .social img {
       display: block;
       padding: 15px;
   }
-  #hero {
+  #hero, #faq-hero {
       margin-top: 0;
   }
-  #hero-msg {
+  #hero-msg, .faq-msg {
       margin-top: 0;
   }
   #hero-msg h4 {
       display: none;
   }
-  .home-title {
+  .home-title, #faq-title h1 {
       font-size: 25px;
       color: #6f7364;
   }
   .rivers-card, .camping-card, .rapids-card { 
       margin: 50px auto;
       width: 60%;
+  }
+  .faq-img-1, .faq-img-2 {
+      display: block;
+      margin: 20px auto;
+      width: 80%
   }
   #background {
       display: none;
