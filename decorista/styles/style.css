@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+:root {
+  --primary-color: #DD7555;
+  --secondary-color: #EEAC54;
+  --accent1-color: #542259;
+  --accent2-color: #F4C5B7;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  display: grid;
+}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 400px;
+  padding-top: 25px;
+}
+
+#logo-link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+nav a {
+  text-align: center;
+  color: #542259;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: #DD7555;
+}
+
+#index {
+  grid-column: 2/3;
+}
+
+#styles {
+  grid-column: 3/4;
+}
+
+#rules {
+  grid-column: 4/5;
+}
+
+#contactus {
+  grid-column: 5/6;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/1;
+ }
+
+#hero-img {
+  width: 100%;
+}
+
+#hero-msg {
+  grid-column: 1/2;
+  grid-row: 1/1;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  max-height: 400px;
+}
+
+.home-title {
+  text-align: left;
+  color: #542259;
+  font-family: "Playfair Display";
+}
+
+#hero-msg p {
+  text-align: left;
+  font-size: 90%;
+  font-weight: bolder;
+  padding-right: 100px;
+  line-height: 150%;
+}
+
+#home-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 50px;
+  background-color: #EEAC54;
+  margin-bottom: 10px;
+}
+
+#home-style-box {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-content: center;
+  justify-content: center;
+}
+
+.home-style-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+}
+
+#home-rules-box {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  align-content: center;
+  justify-content: center;
+}
+
+.home-rules-img {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  align-self: center;
+}
+
+#home-section h4 {
+  font-family: "Playfair Display";
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  font-size: larger;
+  background-color: #542259;
+}
+
+#home-section p {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#contact-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#contact-box {
+  grid-column: 1/4;
+  grid-row: 1/2;
+ }
+
+#contact-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.contact-title {
+  text-align: center;
+  color: #542259;
+  font-family: "Playfair Display";
+}
+
+#contact-msg h4 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: -5px;
+}
+
+#contact-img {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  width: 100%;
+}
+
+
+.button-box {
+  text-align: center;
+}
+
+.contact {
+  background-color: #542259;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.contact:hover {
+  background-color: white;
+  color: #542259;
+}
+
+footer {
+  background-color: #DD7555;
+  color: white;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  font-size: .8em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #542259;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
