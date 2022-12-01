@@ -8,7 +8,7 @@
 }
 
 #content {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -267,6 +267,59 @@ footer .social img {
   padding-top: 15px;
 }
 
+#header-bkgd {
+  background-color: #DD7555;
+  color: white;
+  padding: 25px 50px;
+}
+
+#header-bkgd h2 {
+  font-family: "Playfair Display";
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#header-bkgd p {
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#styles-container {
+  width: 100%;
+  padding: 60px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 45px;
+  justify-content: center;
+}
+
+.farmhouse-img, .modern-img, .coastal-img, .industrial-img, .boho-img, .eclectic-img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+#styles-container h2 {
+  font-family: "Playfair Display";
+  color: #542259;
+  font-size: 1.25em;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+#styles-container p {
+  font-size: smaller;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+
+/*component assignment added*/
 * {box-sizing: border-box;}
 
 h3 {
