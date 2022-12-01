@@ -105,65 +105,37 @@ nav a:hover {
   line-height: 150%;
 }
 
-#home-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  padding: 50px;
+#home-container {
+  width: 100%;
+  padding: 60px;
   background-color: #EEAC54;
-  margin-bottom: 10px;
-}
-
-#home-style-box {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.home-style-img {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.style-link-box {
-  grid-column: 1/2;
-  background-color: #DD7555;
-  margin-top: 0px;
-  padding: 20px;
-  text-align: center;
-}
-
-.style-link {
-  text-decoration: none;
-  color: white;
-}
-
-#home-rules-box {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  align-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 45px;
   justify-content: center;
 }
 
-.home-rules-img {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  align-self: center;
+.home-style-img, .home-rules-img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
 }
 
-.rules-link-box {
-  grid-column: 3/4;
+.style-link-box, .rules-link-box {
+  grid-column: 1/2;
   background-color: #DD7555;
   margin-top: 0px;
   padding: 20px;
   text-align: center;
 }
 
-.rules-link {
+.style-link, .rules-link {
   text-decoration: none;
   color: white;
 }
 
-#home-section h4 {
+#home-container h4 {
   font-family: "Playfair Display";
   text-align: center;
   color: white;
@@ -173,7 +145,7 @@ nav a:hover {
   background-color: #542259;
 }
 
-#home-section p {
+#home-container p {
   text-align: center;
   color: white;
   margin: 0;
