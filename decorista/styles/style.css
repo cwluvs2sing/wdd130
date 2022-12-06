@@ -188,6 +188,8 @@ nav a:hover {
 
 .button-box {
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .contact {
@@ -290,6 +292,77 @@ footer .social img {
   margin-bottom: 0;
 }
 
+#rules-container {
+  width: 100%;
+  padding: 60px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 45px;
+  justify-content: center;
+}
+
+#rules-container h2 {
+  font-family: "Playfair Display";
+  color: #542259;
+  font-size: 1.25em;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#rules-container p {
+  font-size: smaller;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.rules-item-1 {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.rules-item-8 {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  grid-column: 2/3;
+  grid-row: 4/7;
+}
+
+#follow-bkgd {
+  background-color: #EEAC54;
+  color: white;
+  padding: 25px 50px;
+  margin-bottom: 10px;
+}
+
+#follow-bkgd h2 {
+  font-family: "Playfair Display";
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+
+.follow {
+  background-color: #542259;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.follow:hover {
+  background-color: white;
+  color: #542259;
+}
 
 /*component assignment added*/
 * {box-sizing: border-box;}
